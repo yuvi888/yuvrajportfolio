@@ -33,7 +33,7 @@ function Resume() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 1 }}
                     viewport={{ once: true }} className='resumeimgdiv'>
-                    <img className='resumeimg' src='/assets/yuvraj_resume_page-0001.jpg' alt="resumeimage" />
+                    <img className='resumeimg' src={process.env.PUBLIC_URL + '/assets/yuvraj_resume_page-0001.jpg'} alt="resumeimage" />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, y: +100 }}
                     whileInView={{ opacity: 1, y: 0 }}

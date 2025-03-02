@@ -6,12 +6,12 @@ import {motion } from 'framer-motion'
 import Footer from './footer';
 
 const images = [
-    { id: 1, src: "/assets/galleryimg/img3.jpg", alt: "Image 1", size: "large" },
-    { id: 2, src: "/assets/galleryimg/img2.jpg", alt: "Image 2", size: "small" },
-    { id: 3, src: "/assets/galleryimg/img1.jpg", alt: "Image 3", size: "medium" },
-    { id: 4, src: "/assets/galleryimg/img5.jpg", alt: "Image 4", size: "large" },
-    { id: 5, src: "/assets/galleryimg/img4.jpg", alt: "Image 5", size: "small" },
-    { id: 6, src: "/assets/galleryimg/img6.jpg", alt: "Image 6", size: "medium" },
+    { id: 1, src: process.env.PUBLIC_URL + "/assets/galleryimg/img3.jpg", alt: "Image 1", size: "large" },
+    { id: 2, src: process.env.PUBLIC_URL + "/assets/galleryimg/img2.jpg", alt: "Image 2", size: "small" },
+    { id: 3, src: process.env.PUBLIC_URL + "/assets/galleryimg/img1.jpg", alt: "Image 3", size: "medium" },
+    { id: 4, src: process.env.PUBLIC_URL + "/assets/galleryimg/img5.jpg", alt: "Image 4", size: "large" },
+    { id: 5, src: process.env.PUBLIC_URL + "/assets/galleryimg/img4.jpg", alt: "Image 5", size: "small" },
+    { id: 6, src: process.env.PUBLIC_URL + "/assets/galleryimg/img6.jpg", alt: "Image 6", size: "medium" },
 ];
 
 function Gallery() {

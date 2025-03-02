@@ -9,7 +9,7 @@ function NavBar() {
     return (
         <div className="header-container">
             <div className="hcondiv1">
-                <img width="25px" height="25px" src='/assets/letter-y.png' alt="" />
+                <img width="25px" height="25px" src= {process.env.PUBLIC_URL + '/assets/letter-y.png'} alt="" />
                 <span style={{ color: 'white' }}>&nbsp;&nbsp;Yuvii</span>
             </div>
 

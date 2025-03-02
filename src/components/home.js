@@ -33,7 +33,7 @@ function Home() {
                 </motion.div>
 
                 <div className="homediv2"  >
-                    <img src='/assets/homeimg.jpg' alt="Description of IMG_20210725_191853" />
+                    <img src={process.env.PUBLIC_URL + '/assets/homeimg.jpg'} alt="Description of IMG_20210725_191853" />
                 </div>
             </main>
 

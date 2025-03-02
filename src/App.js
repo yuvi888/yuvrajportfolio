@@ -1,6 +1,6 @@
 
 import './App.css';
-import { BrowserRouter as BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './components/home';
 import Resume from './components/resume';
 import ScrollToTop from "./components/scrolltotop";
@@ -11,7 +11,7 @@ import Contact from './components/contact';
 function App() {
   return (
 
-    <BrowserRouter basename="/yuvrajportfolio">
+    <Router>
     <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         <Route path="/gallery" element={<Gallery />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
 
   );
 }

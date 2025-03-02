@@ -29,7 +29,7 @@ function Home2() {
     transition={{ duration: 0.5 }}
     viewport={{ once: false }}
     className="home2div2">
-                        <img src='/assets/profile.jpg' alt="" />
+                        <img src={process.env.PUBLIC_URL + '/assets/profile.jpg'} alt="" />
                     
     </motion.div>
     </div>
