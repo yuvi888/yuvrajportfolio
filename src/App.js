@@ -11,7 +11,7 @@ import Contact from './components/contact';
 function App() {
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename="/yuvrajportfolio">
     <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
